@@ -9,7 +9,8 @@ var gpxObject = function(){
 gpxObject.prototype = {
 	documentMeta : {
 		xmlns : 'http://www.topografix.com/GPX/1/1',
-		'xmlns:gpxx' : 'http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1',
+		'xmlns:gpxx' : 'http://www.garmin.com/xmlschemas/GpxExtensions/v3',
+		'xmlns:gpxtpx':'http://www.garmin.com/xmlschemas/TrackPointExtension/v1',
 		creator : 'gpxObject',
 		version : 1.1,
 		'xmlns:xsi' : 'http://www.w3.org/2001/XMLSchema-instance',
